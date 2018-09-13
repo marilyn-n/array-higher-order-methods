@@ -1,33 +1,42 @@
 const { numbersObj, numbers, foods, songs, pets } = require ('./data.js')
 
-// ES6 filter with anonymous function
-const petIsAlive = pets.filter(animal => animal.alive === true)
+// filter with  ES6 FART unassigned anonymous function
+const alivePets = pets.filter(animal => animal.alive === true)
 
-const lenghtName = pets.filter(animal => animal.pornstarName.length > 10)
+const longPornStarNames = pets.filter(animal => animal.pornstarName.length > 10)
 
-const album = songs.filter(song => song.id != song.albumId)
+const untitledSongs = songs.filter(song => song.id != song.albumId)
 
-const albumIds = songs.filter(song => song.albumId === song.id)
+const titledSongs = songs.filter(song => song.albumId === song.id)
 
-const withoutOwner = pets.filter(animal => !animal.owner)
+const petsWithoutOwner = pets.filter(animal => !animal.owner)
 
-const withoutOwnerAndAlive = pets.filter(animal => !animal.owner && !animal.alive)
+const petsWithoutOwnerAndAlive = pets.filter(animal => !animal.owner && !animal.alive)
 
-// ES6 filter with function expression over the array
+// filter with ES6 FART assigned anonymous function
 
-const eightCharAtFoods = food => food.length > 8
-const foodLenght = foods.filter(eightCharAtFoods)
+const isFoodMoreThan8Chars = food => food.length > 8
 
-const isNotLosted = pet => !pet.lost
-const findPet = pets.filter(isNotLosted)
+const longFoodNames = foods.filter(isFoodMoreThan8Chars)
 
-// ES5 filter
+const isPizza = food => food === 'pizza'
 
-var myNumbers = numbers.filter(function(num) {
+const isPizza2 = food => isPizza(food)
+
+const pizzas = foods.filter(isPizza)
+
+const pizzas2 = foods.filter( food => isPizza(food))
+
+const isNotLost = pet => !pet.lost
+const notLostPets = pets.filter(isNotLost)
+
+// filter with ES5 unassigned anonymous function
+
+var evenNumbers = numbers.filter(function(num) {
   return num % 2 == 0
 })
 
 var myFavSongs = songs.filter(function(song) {
-  return song
+  return song.name === 'Traitor'
 })
-console.log(myFavSongs[0])
+console.log(myFavSongs)

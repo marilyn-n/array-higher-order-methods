@@ -1,5 +1,6 @@
 const numbersObj = { 0:2, 1:4, 2:9, 3:90, 4:4, 5:9, 6:4 }
-const numbers = [ 2, 4, 9, 90, 4, 9, 4 ]
+const numbers = [ 2, 4, 9, 90, 4, 9, 4]
+const negativeNumbers = [-3, -5, -90, -12]
 const foods = ['chicken', 'pizza', 'pozole', 'tacos', 'tamal', 'torta', 'bread', 'quesadilla']
 const songs = [
   { id: 1, name: 'Traitor' , artist: 'Rafaelo Negrete', albumId: 1, category: 'Banda'},
@@ -7,6 +8,18 @@ const songs = [
   { id: 2, name: 'La Malagueña' , artist: 'Luis Miguel', albumId: 3, category: 'Romantic music'},
   { id: 5, name: 'La primavera' , artist: 'Vicente', albumId: 230, category: 'Rancheras'},
   { id: 5, name: 'El hombre' , artist: 'Vicente', albumId: 230, category: 'Rancheras'}
+]
+const classroom = [
+  { name: 'Marcos', gender: 'M' },
+  { name: 'Fabian', gender: 'M' },
+  { name: 'Luisa', gender: 'F' },
+  { name: 'Fernando', gender: 'M' },
+  { name: 'Rafaelo', gender: 'M' },
+  { name: 'Rafaela', gender: 'F' },
+  { name: 'Sama', gender: 'F' },
+  { name: 'Patricia', gender: 'F' },
+  { name: 'Jose', gender: 'M' },
+  { name: 'Benjamin Jr', gender: 'M' },
 ]
 const pets = [
 {
@@ -85,4 +98,12 @@ const pets = [
   
 ]
 
-module.exports = { numbersObj, numbers, foods, songs, pets }
+module.exports = { 
+  numbersObj, 
+  numbers, 
+  foods, 
+  songs, 
+  pets, 
+  classroom, 
+  negativeNumbers 
+}
