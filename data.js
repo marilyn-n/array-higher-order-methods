@@ -1,13 +1,16 @@
 const numbersObj = { 0:2, 1:4, 2:9, 3:90, 4:4, 5:9, 6:4 }
-const numbers = [ 2, 4, 9, 90, 4, 9, 4]
+const numbers = [ 2, 4, 9, 90, 4, 9, 4, -13]
 const negativeNumbers = [-3, -5, -90, -12]
 const foods = ['chicken', 'pizza', 'pozole', 'tacos', 'tamal', 'torta', 'bread', 'quesadilla']
 const songs = [
-  { id: 1, name: 'Traitor' , artist: 'Rafaelo Negrete', albumId: 1, category: 'Banda'},
-  { id: 2, name: 'Dos en uno' , artist: 'Los Angeles Verdes', albumId: 3, category: 'Romantic music'},
-  { id: 2, name: 'La Malagueña' , artist: 'Luis Miguel', albumId: 3, category: 'Romantic music'},
-  { id: 5, name: 'La primavera' , artist: 'Vicente', albumId: 230, category: 'Rancheras'},
-  { id: 5, name: 'El hombre' , artist: 'Vicente', albumId: 230, category: 'Rancheras'}
+  { id: 1, name: 'Traitor' , artist: 'Rafaelo Negrete', albumId: 1, category: 'Banda' },
+  { id: 2, name: 'Dos en uno' , artist: 'Los Angeles Verdes', albumId: 3, category: 'Romantic music' },
+  { id: 21, name: 'La Malagueña' , artist: 'Luis Miguel', albumId: 3, category: 'Romantic music' },
+  { id: 5, name: 'La primavera' , artist: 'Vicente', albumId: 230, category: 'Rancheras' },
+  { id: 5, name: 'El hombre' , artist: 'Vicente', albumId: 230, category: 'Rancheras' },
+  { id: 90, name: 'Sin Pijama' , artist: undefined, albumId: 10, category: 'Reggaeton' },
+  { id: 50, name: 'Despacito' , artist: 'Daddy Yankey', albumId: 10, category: 'Regaeton' },
+  { id: 13, name: 'Ahora te puedes marchar' , artist: 'Luis Miguel', albumId: 3, category: 'Romantic music' }
 ]
 const classroom = [
   { name: 'Marcos', gender: 'M' },
