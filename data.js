@@ -101,6 +101,14 @@ const pets = [
   
 ]
 
+const food = [
+  { type: 'Mexican' name: 'Pozole' hotSpicy: 'false' },
+  { type: 'TexMex' name: 'Fajitas' hotSpicy: 'false' },
+  { type: 'Mexican' name: 'Enchiladas' hotSpicy: 'true' },
+  { type: 'Mexican' name: 'Tamales' hotSpicy: 'false' },
+  { type: 'Mexican' name: 'Mole' hotSpicy: 'true' }
+]
+
 module.exports = { 
   numbersObj, 
   numbers, 
