@@ -101,7 +101,7 @@ const pets = [
   
 ]
 
-const food = [
+const traditionalFood = [
   { type: 'Mexican' name: 'Pozole' hotSpicy: 'false' },
   { type: 'TexMex' name: 'Fajitas' hotSpicy: 'false' },
   { type: 'Mexican' name: 'Enchiladas' hotSpicy: 'true' },
@@ -116,5 +116,6 @@ module.exports = {
   songs, 
   pets, 
   classroom, 
-  negativeNumbers 
+  negativeNumbers,
+  traditionalFood
 }
